@@ -48,7 +48,7 @@ body {
     color: #dd7732;
 }
 
-.container-code p span.cursor {
+span.cursor {
     display: inline-block;
     background-color: #ccc;
     margin-left: 0.1rem;
@@ -56,7 +56,7 @@ body {
     animation: blink 1s infinite;
 }
 
-.container-code p span.cursor.typing {
+span.cursor.typing {
     animation: none;
 }
 
@@ -201,8 +201,10 @@ body {
 @media only screen and (max-width: 992px) {
 
     .test::before {
-        top: -50px;
-        font-size: 115px;
-        left: -10px;
+        top: 50%;
+        font-size: 40px;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: -90px;
     }
 }
