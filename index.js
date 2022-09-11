@@ -98,8 +98,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     });
 })
 
-const typedTextSpan = document.querySelector(".typed-text");
-const cursorSpan = document.querySelector(".cursor");
+const typedTextSpan = document.querySelector(".Typewriter__wrapper");
+const cursorSpan = document.querySelector(".Typewriter__cursor");
 
 const textArray = ["hard", "fun", "a journey", "LIFE"];
 const typingDelay = 200;
