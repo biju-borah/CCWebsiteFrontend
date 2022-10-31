@@ -237,6 +237,12 @@ span.cursor.typing {
     }
 }
 
+.section-text {
+    color: rgba(83, 93, 161, .8);
+    font-weight: 1000;
+    text-align: start;
+}
+
 .timeline-main {
     background-color: #1c1f35;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .4);
