@@ -148,3 +148,10 @@ text.set({
 
 text.start();
 text.reveal(4000);
+function fn60sec() {
+    // runs every 60 sec and runs on init.
+    text.start();
+    text.reveal(4000);
+}
+fn60sec();
+setInterval(fn60sec, 6 * 1000);
