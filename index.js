@@ -139,3 +139,12 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
     if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+const text = baffle(".data");
+text.set({
+    characters: '░▒░ ░██░> ████▓ >█> ░/█>█ ██░░ █<▒ ▓██░ ░/░▒',
+    speed: 120
+});
+
+text.start();
+text.reveal(4000);
