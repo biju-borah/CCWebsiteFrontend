@@ -32,8 +32,17 @@ body {
     position: fixed;
     z-index: 100;
     width: 100%;
+}
+
+.nav-tran {
     background: transparent !important;
 }
+
+.nav-color {
+    background-color: #1c1f35 !important;
+    box-shadow: 0 2px 2px -2px rgba(135, 184, 240, 0.2);
+}
+
 
 .nav-link {
     font-family: monospace;

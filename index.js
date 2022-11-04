@@ -149,9 +149,22 @@ text.set({
 text.start();
 text.reveal(4000);
 function fn60sec() {
-    // runs every 60 sec and runs on init.
     text.start();
     text.reveal(4000);
 }
 fn60sec();
-setInterval(fn60sec, 6 * 1000);
+setInterval(fn60sec, 8 * 1000);
+
+
+var myNav = document.getElementById('navbar');
+window.onscroll = function () {
+    "use strict";
+    if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200) {
+        myNav.classList.add("nav-color");
+        myNav.classList.remove("nav-tran");
+    }
+    else {
+        myNav.classList.add("nav-tran");
+        myNav.classList.remove("nav-color");
+    }
+};
