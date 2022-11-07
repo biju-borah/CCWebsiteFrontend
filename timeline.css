@@ -118,12 +118,12 @@
 
 .section-timeline .timeline li:last-child:after {
     bottom: 0;
-    right: 0;
-    transform: translate(50%, 50%)
+    /* right: 0; */
+    transform: translate(-50%, 50%)
 }
 
 .section-timeline .timeline li:nth-child(1):before {
-    content: 'Oct'
+    content: 'Nov'
 }
 
 .section-timeline .timeline li:nth-child(2):before {
@@ -131,15 +131,15 @@
 }
 
 .section-timeline .timeline li:nth-child(3):before {
-    content: 'July'
+    content: 'Oct'
 }
 
 .section-timeline .timeline li:nth-child(4):before {
-    content: 'June'
+    content: 'July'
 }
 
 .section-timeline .timeline li:nth-child(5):before {
-    content: '5'
+    content: 'June'
 }
 
 .section-timeline .timeline li:nth-child(6):before {
