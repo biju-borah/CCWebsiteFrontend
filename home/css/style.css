@@ -1,0 +1,11 @@
+.transparent_effect {
+    height: 100%;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+}
+
+.transparent_effect.fixed {
+    position: fixed;
+    z-index: 1;
+}
